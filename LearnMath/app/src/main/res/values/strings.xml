@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Learn Math</string>
+    <string name="number1">Nhấp số thứ nhất</string>
+    <string name="number2">Nhấp số thứ hai</string>
+    <string name="calculator">Calculator</string>
+    <string name="result">10</string>
+    <string name="buttonAdd"> + </string>
+    <string name="buttonSub"> - </string>
+    <string name="buttonMul"> * </string>
+    <string name="buttonDiv"> / </string>
+</resources>

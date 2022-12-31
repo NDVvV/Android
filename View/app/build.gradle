@@ -1,20 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
 }
 
 android {
-    buildFeatures {
-        viewBinding = true
-    }
-
-    namespace 'com.example.tiptime'
+    namespace 'com.example.view'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.tiptime"
+        applicationId "com.example.view"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -36,12 +30,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildToolsVersion '30.0.3'
 }
 
 dependencies {
 
-    implementation 'com.android.databinding:viewbinding:4.0.1'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
